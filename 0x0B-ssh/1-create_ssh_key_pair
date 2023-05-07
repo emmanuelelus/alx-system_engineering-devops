@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Bash script that creates an RSA key pair
-#ssh-keygen -b 4096 -P betty -f school
-ssh-keygen -t rsa -b 4096 -P betty -f school
+# Bash script that uses ssh to connect to your server using private key
+#key ~/.ssh/school with the user ubuntu
+ssh ubuntu@18.210.14.22 -i ~/.ssh/id_rsa
