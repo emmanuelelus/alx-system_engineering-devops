@@ -12,7 +12,7 @@ sudo apt-get install -y nginx
 mkdir /etc/nginx/html
 
 # Creating Sample Page
-echo "Hello World!" > /etc/nginx/html/index.html
+echo "Hello World!" > /var/www/html/index.html
 
 # Creating Server Block Files
 echo "server {
